@@ -17,6 +17,24 @@
 
   <!-- Custom Styles -->
 <link rel="stylesheet" href="style.css">
+
+<style>
+body{
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+
+  background:
+        /* top, transparent black, faked with gradient */ 
+        linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(1, 0, 0, 0.7)
+        ),
+        /* bottom, image */
+        url(bg.jpg);
+    }
+}
+</style>
 </head>
 
 <body>
@@ -28,9 +46,9 @@
    <span class="material-icons">crop_square</span>
     </div>
 
-    <div id="main">
+    <div id="main" style="background-color: rgba(.2, .2, .2, .4);">
     <h1>Welcome to Squid Game</h1>
-    <p>This is the frontman speaking.</p>
+    <p>This is the front man speaking.</p>
     <p>You ready to play the games?</p>
    
    <div id="form">
