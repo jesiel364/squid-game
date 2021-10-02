@@ -40,10 +40,10 @@ body{
 <body>
   <div id="container">
 
-    <div id="logo">
+    <div id="logo"><a href='https://jesiel364.github.io/squid-game/'>
    <span class="material-icons">radio_button_unchecked</span>
    <span class="material-icons">change_history</span>
-   <span class="material-icons">crop_square</span>
+   <span class="material-icons">crop_square</span></a>
     </div>
 
     <div id="main" style="background-color: rgba(.2, .2, .2, .3);">
