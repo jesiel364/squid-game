@@ -2,6 +2,7 @@ body {
     font-size: 15pt;
     font-family: "Roboto Condensed", sans-serif;
     background-color: #282828;
+    /*width: 1000px;*/
 }
 
 #nome{
@@ -19,7 +20,7 @@ body {
 }
 
 #button{
-  background-color: blueviolet;
+  background-color: red;
   color: white;
   width: 88px;
   font-size: 18px;
@@ -27,11 +28,13 @@ body {
 }
 
 #container{
-  min-width:  300px;
-  max-width:  100%;
+  /*width:  300px;*/
+  /*max-width:  100%;*/
   /*padding-left: 10px;*/
-  margin: auto;
-  /*background-color: blue;*/
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding: 0;
 }
 
 p{
@@ -56,6 +59,13 @@ h1{
 #logo{
   /*background-color: blue;*/
   text-align: center;
+  margin: auto;
+  /*display: flex;*/
+  width: 420px;
+}
+
+.material-icons:hover{
+  color: red;
 }
 
 #main{
@@ -63,11 +73,15 @@ h1{
   width: 400px;
   margin: auto;
   border-radius: 10px;
-  padding: 20px;
+  padding: 10px;
 }
 
 #form{
   display: table;
   /*background-color: red;*/
   width: 100%;
+}
+
+a{
+  text-decoration: none;
 }
