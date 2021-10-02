@@ -28,7 +28,7 @@ body {
 
 #container{
   min-width:  300px;
-  max-width:  1000px;
+  max-width:  100%;
   /*padding-left: 10px;*/
   margin: auto;
   /*background-color: blue;*/
