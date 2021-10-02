@@ -46,7 +46,7 @@ body{
    <span class="material-icons">crop_square</span>
     </div>
 
-    <div id="main" style="background-color: rgba(.2, .2, .2, .4);">
+    <div id="main" style="background-color: rgba(.2, .2, .2, .3);">
     <h1>Welcome to Squid Game</h1>
     <p>This is the front man speaking.</p>
     <p>You ready to play the games?</p>
