@@ -47,14 +47,14 @@ body{
     </div>
 
     <div id="main" style="background-color: rgba(.2, .2, .2, .3);">
-    <h1>Welcome to Squid Game</h1>
-    <p>This is the front man speaking.</p>
-    <p>You ready to play the games?</p>
+    <h1>Bem vindo aos Jogos da Lula</h1>
+    <p>Aqui quem fala é o lider da competição.</p>
+    <p>Preparado para jogar os jogos?</p>
    
    <div id="form">
     <form action="page2.html" method="GET">
-      <input id="nome" placeholder="Your name?" type="text" name="name"/>
-      <input id="button" type="submit" name="submit" value="Confirm"/>
+      <input id="nome" placeholder="Seu nome?" type="text" name="name"/>
+      <input id="button" type="submit" name="submit" value="Confirmar"/>
     </form>
     </div>
 </div>
